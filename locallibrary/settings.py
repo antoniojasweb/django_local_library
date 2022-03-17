@@ -153,6 +153,6 @@ STATIC_URL = '/static/'
 # http://whitenoise.evans.io/en/stable/django.html#django-middleware
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-if config('DJANGO_PRODUCTION', default=False, cast=bool):
-    from .settings_production import *
+#if config('DJANGO_PRODUCTION', default=False, cast=bool):
+#    from .settings_production import *
 
